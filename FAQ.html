@@ -1,0 +1,152 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>FAQ's</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css">
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <style type="text/css">
+        body {
+            background-image: linear-gradient(#051e3e, #651e3e, #451e3e);
+            padding-top: 20px;
+            font-family: inherit;
+        }
+
+        .header {
+            border-radius: 20px 20px 0px 0px;
+            padding: 10px 0px;
+            background: #251e3e;
+            text-shadow: 0 0 3px white;
+            color: #fff;
+            width: 100%;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+        }
+
+        .faq-item {
+            margin-bottom: 40px;
+            color: #fff;
+            margin-top: 40px;
+        }
+
+        .faq-body {
+            display: none;
+            margin-top: 30px;
+
+        }
+
+        .faq-wrapper {
+            width: 75%;
+            margin: 0 auto;
+            box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+
+                0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+
+        }
+
+        .faq-inner {
+            padding: 30px;
+            background: #851e3e;
+        }
+
+        .faq-plus {
+            float: right;
+            font-size: 1.4em;
+            line-height: 1em;
+            cursor: pointer;
+        }
+
+        hr {
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="faq-wrapper">
+                <div class="header">
+                    <h1>FAQs</h1>
+                </div>
+                <div class="faq-inner">
+                    <div class="faq-item">
+                        <h3>
+                            What are the eligibility criteria to appear for NIMCET-2021 ?
+                            <span class="faq-plus">&plus;</span>
+                        </h3>
+                        <div class="faq-body">
+                            The eligibility criteria to appear for NIMCET-2021 test are given in Section
+                            2 of the Information Brochure of NIMCET-2021.
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="faq-item">
+                        <h3>
+                            Whether Aadhaar card is essential for filling the form? ?
+                            <span class="faq-plus">&plus;</span>
+                        </h3>
+                        <div class="faq-body">
+                            No, any Government documents (Voter ID card, PAN card, Indian
+                            Passport, Driving License issued in India) can be used for identification
+                            purposes based on the options available on the website.
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="faq-item">
+                        <h3>
+                            What are the criteria and required documents to claim OP-EWS?
+                            <span class="faq-plus">&plus;</span>
+                        </h3>
+                        <div class="faq-body">
+                            At the time of online application form filling EWS certificate of the current
+                            year (i.e. issued on or after April 1, 2020) which is issued by a competent
+                            authority is required to be uploaded (duly self-attested scanned copy).
+                            Candidates applying in this category must-read clause number 6.1(5) of
+                            the Information Brochure of NIMCET-2021
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="faq-item">
+                        <h3>
+                            What are the criteria for allotment of rank in NIMCET-2021?
+                            <span class="faq-plus">&plus;</span>
+                        </h3>
+                        <div class="faq-body">
+                            A candidate scoring zero or negative marks either in Mathematics or in
+                            Total Marks in NIMCET-2021 test will be disqualified. Based on the marks
+                            obtained by a qualified candidate in NIMCET-2021 test, a rank will be
+                            allotted by adopting the criteria specified in the Section 13 of the
+                            Information Brochure of NIMCET-2021.
+
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="faq-item">
+                        <h3>
+                            When and how will I know the status of my application?
+
+                            <span class="faq-plus">&plus;</span>
+                        </h3>
+                        <div class="faq-body">
+                            You can check the status of your application by logging into the official
+                            website of the NIMCET-2021:
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(".faq-plus").on('click', function () {
+            $(this).parent().parent().find('.faq-body').slideToggle();
+        });
+    </script>
+</body>
+
+</html>
